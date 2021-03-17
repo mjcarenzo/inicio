@@ -1,0 +1,31 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+h1 {
+    color: red;
+}
+
+.pintaVerde {
+    color: green;
+}
+
+.variasCosas {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+}
+
+.cajaVerde {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
