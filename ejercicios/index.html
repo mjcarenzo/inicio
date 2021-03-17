@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejercicios Sol</title>
+    <meta name="description" content="ej">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <!--EJERCICIOS JAVASCRIPT-->
+    <!-- 1) Cambiar contenido:-->
+    <h3>1) Cambiar contenido:</h3>
+    <p id="change">Hello World!!</p>
+    <button onclick="changeText()">Cambiar Texto</button><br/><br/>
+
+    <!-- 2) Cambiar estilo CSS:-->
+    <h3>2) Cambiar estilo CSS:</h3>
+    <p id="size">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque, eveniet officiis possimus
+        obcaecati at quod quisquam soluta ipsam aspernatur dignissimos laborum, a ipsum. Quia, ullam. Blanditiis ratione
+        consectetur velit?
+        Expedita doloribus quaerat nisi, numquam placeat quo illum veniam? Nemo, asperiores. Perspiciatis nostrum neque
+        eius a ex debitis ducimus facere maiores! Necessitatibus nesciunt quae, nostrum numquam temporibus esse
+        blanditiis doloribus!</p>
+    <button onclick="changeFontSize()">Cambiar a 40px</button><br/><br/>
+
+    <!-- 3) Ocultar elementos:-->
+    <div>
+        <h3>3) Ocultando y Mostrando Parrafos</h1>
+        <p id="first">Este primer parrafo se va a ocultar al precionar el boton "Ocultar"</p>
+        <p id="second" hidden>Este segundo parrafo estaba oculto</p>
+        <button onclick="hideP()">Ocultar primero</button>
+        <button onclick="showP()">Mostrar segundo</button>
+    </div>
+
+    <!-- 4) Mostrar URL:-->
+    <h3>4) Capturar y mostrar la URL actual en este parrafo</h3>
+    <p id="url"></p>
+    <button onclick="captureUrl()">Captura y Muestra</button> <br/><br/>
+
+    <!-- 5) Mostrar un nombre del form: Crear 3 elementos formulario con name form1, form2, form3. Mostrar el segundo nombre de formulario.-->
+    <h3>5) Mostrar un nombre del form:</h3>
+    <form action="" name="form1"></form>
+    <form action="" name="form2"></form>
+    <form action="" name="form3"></form>
+    <p id="nameForm"></p>
+
+
+    <!-- 6) Modificar color de fondo: Modificar colores de fondo mediante botones o eventos (onmouseover, onmouseout)-->
+    <h3>6) Modificar color de fondo:</h3>
+    <button onclick="changeBgColor()">Cambiar color de fondo, con azar</button><br/><br/>
+
+    <!-- 7) Convertir texto en mayúsculas: Armar un elemento p con texto Hello world! 
+        Aplicar mayúsculas a todo el texto mediante un botón o evento.-->
+    <h3>7) Convertir texto en mayúsculas:</h3>
+    <p id="upper">Hello World</p>
+    <button onclick="toUpper()">UpperCase</button><br/><br/>
+
+    <!-- 8) Encontrar el número de elementos anchor: Armar como mínimo 3 elementos anchor y mostrar la cantidad en un texto <p>.-->
+    <h3>8) Encontrar el número de elementos anchor:</h3>
+    <a href="#">Inicio</a>
+    <a href="#">Galeria</a>
+    <a href="#">Contacto</a>
+    <p id="numAnchors">El numero de elementos "a" es: </p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
